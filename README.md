@@ -1,7 +1,6 @@
 # ImageColorizationGANAraGuler
 
 ### Here is our code's explanation:
-
 1.Imports the necessary libraries for loading and transforming images, setting up a data pipeline using PyTorch, and visualizing images using matplotlib.
 2.Mounts the user's Google Drive to Colab.
 3.Loads a subset of images from a given directory and randomly splits them into training and validation sets.
