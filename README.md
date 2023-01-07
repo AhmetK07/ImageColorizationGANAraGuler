@@ -1,12 +1,19 @@
 # ImageColorizationGANAraGuler
 
 ### Here is our code's explanation:
+
 1.Imports the necessary libraries for loading and transforming images, setting up a data pipeline using PyTorch, and visualizing images using matplotlib.
+
 2.Mounts the user's Google Drive to Colab.
+
 3.Loads a subset of images from a given directory and randomly splits them into training and validation sets.
+
 4.Defines a MakeDataset class which inherits from PyTorch's Dataset class. The __init__ method of this class applies some random transformations to the images (resizing, horizontal flipping). The __getitem__ method loads an image, converts it to the RGB color space, applies the defined transformations, converts the image to the LAB color space, and rescuescales the L and ab channels. The __len__ method returns the number of images in the dataset.
+
 5.Instantiates the MakeDataset class for the training and validation sets and creates PyTorch DataLoader objects for them.
+
 6.Defines a function lab_to_rgb which converts L and ab tensors back to the RGB color space.
+
 7.Loads a batch of data from the training set, unpack the L and ab channels, and visualizes the L channel and the corresponding ground truth and reconstructed RGB images using matplotlib.
 
 ### Packages we have used in the code:
