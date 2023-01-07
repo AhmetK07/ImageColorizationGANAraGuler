@@ -32,7 +32,9 @@
 ### Technologies we have used:
 
 1.Google Collab: for training and predicting the data.
+
 2.Jupter Notebook: Python development environment.
+
 3.Github: To store our data in a repository.
 
 ### Training function:
